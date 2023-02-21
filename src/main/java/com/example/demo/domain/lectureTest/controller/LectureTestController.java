@@ -13,7 +13,7 @@ public class LectureTestController {
 
     @GetMapping("/first")
     public String helloSpring() {
-        log.info("helloSpring(): 이거 왜이럼");
+        log.info("helloSpring(): 이거 왜");
         return "Sung yeon Test1";
     }
 
