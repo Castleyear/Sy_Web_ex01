@@ -14,12 +14,12 @@ public class LectureTestController {
     @GetMapping("/first")
     public String helloSpring() {
         log.info("helloSpring(): 이거 왜이럼");
-        return "Hello Spring";
+        return "Sung yeon Test1";
     }
 
     @GetMapping("/second")
     public String TestSpring() {
-        return "Hello Spring2";
+        return "Sung yeon Test2";
     }
 
     @GetMapping("/second2")
@@ -29,7 +29,7 @@ public class LectureTestController {
 
     @GetMapping("/third")
     public TestMember returnEntityTest() {
-        TestMember t = new TestMember(1L, "uesr1", 7L);
+        TestMember t = new TestMember(2L, "uesr1", 7L);
         System.out.println(t.toString());
         return t;
     }
