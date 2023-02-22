@@ -16,7 +16,7 @@ public class LectureTestController {
         log.info("helloSpring(): 이거 왜");
         return "Sung yeon Test1";
     }
-    //test
+
     @GetMapping("/second")
     public String TestSpring() {
         return "Sung yeon Test2";
